@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://meeting-action-tracker-7h4g.onrender.com";
+const BASE_URL = "https://meeting-action-tracker-7h4g.onrender.com/api";
 
 export const getStatus = () => axios.get(`${BASE_URL}/status`);
 
@@ -15,5 +15,6 @@ export const deleteActionItem = (id) => axios.delete(`${BASE_URL}/actions/${id}`
 export const getTranscriptHistory = () => axios.get(`${BASE_URL}/transcripts/history`);
 
 export const postActionItem = (data) => axios.post(`${BASE_URL}/actions`, data);
+
 
 
