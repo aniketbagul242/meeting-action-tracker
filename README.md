@@ -17,7 +17,7 @@ Built with **React**, **Node.js (Express)**, **MongoDB**, and **OpenRouter AI AP
 
 ## Demo
 
-[Live App Link](YOUR_LIVE_LINK)
+Live App Link - https://meeting-action-tracker-1.onrender.com
 
 ---
 
@@ -45,4 +45,5 @@ npm run server
 
 # frontend (in /client)
 npm run dev
+
 
